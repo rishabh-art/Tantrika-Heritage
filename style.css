@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
+
+
+.coverHeader{
+    height: 100vh;
+    width:100%;
+    position:relative;
+    background: url('Assets/background3.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color:rgb(255,255,255);
+    font-family:"Sedan SC", "Serif";
+}
+
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+.testimonial-row {
+    margin-top: auto; 
+    text-align: left; 
+    padding: 20px; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 20px; 
+    text-align: left; 
+  }
+  
+  .testimonial {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+  }
+  
+  .testimonial span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .rating {
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .rating i {
+    margin: 0 5px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .language-buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    text-align: right;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .btn:hover {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  .hamburger {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .hamburger:hover {
+    color: #ccc;
+  }
+
+  .columns{
+
+    display:flex;
+    color:rgb(233, 233, 252);
+    justify-content: space-between;
+    padding-top:20px;
+
+
+}
+.neumorphistColumn{
+    border-radius: 50px;
+    background: linear-gradient(45deg, #c58f0c, #a6790a);
+    box-shadow:  18px -18px 36px #4a3604,
+                 -18px 18px 36px #ffd612;
+    flex: 1;
+    padding: 10px;
+    display:flex;
+    text-align: center;
+    margin-right:20px;
+    font-family: "Bitter";
+    font-size:18px;
+    width:40%;
+    display:flex;
+    justify-content:space-between;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+body{
+    background-color:#ffd700;
+}
+
+.image1{
+    border-radius:50px;
+    height:100%;
+    width:100%;
+}
+
+#greenNeumorphistColumn{
+    border-radius: 50px;
+    background: linear-gradient(45deg, #87a478, #718a65);
+    box-shadow:  22px -22px 45px #323d2d,
+                 -22px 22px 45px #caf5b3;
+}
+
+.section2{
+    padding-top:30px;
+    text-align:center;
+    font-family:"Sedan SC", serif;
+    font-size:24px;
+    
+}
+.footerHolder{
+    padding-top:30px;
+}
+.footer{
+    background-color:black;
+    color:white;
+    font-family:"Sedan SC", serif;
+    font-size:20px;
+    display:flex;
+    color:rgb(233, 233, 252);
+    justify-content: space-between;
+    padding-top:20px;
+    left:50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footerForm{
+        color:whitesmoke;
+        font-family: "Sedan SC", serif;
+        font-size:20px;
+        left:50%;
+        margin: 0 auto;
+}
+
+.formInput{
+    background-color:wheat;
+    color:rgb(27, 1, 1);
+    font-family: "Bitter";
+    font-size:18px;
+    width:300px;
+    height:20px;
+    border-radius:5px;
+}
+
+.submitBTN{
+    width:110%;
+    height:80px;
+    font-size:36px;
+    font-family:"Sedan SC", serif;
+    color:brown;
+    background-color:#ffd612
+
+}
+
